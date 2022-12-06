@@ -1,6 +1,8 @@
 ﻿using System.IO;
 using System;
 using System.Collections.Generic;
+using AdventOfCode.Day5;
+
 namespace AdventOfCode
 {
 
@@ -8,8 +10,7 @@ namespace AdventOfCode
     {
         public static void Main(string[] args)
         {
-         AdventOfCode.Day3.Challenge3 challenge = new AdventOfCode.Day3.Challenge3();
-         challenge.Run();
+         new Challenge5().Run();
         }
     }
 }
